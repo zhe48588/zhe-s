@@ -25,6 +25,21 @@ print(c)
 d=10
 d*=1+2
 print(d)
-#比较运算符
+#比较运算符:==(判断相等)  !=(不等于) > <  >=  <= 正确得到True 错误得到False
+a=1
+b=1
+print(a==b)  #True
 
-#逻辑运算符
+#逻辑运算符 
+a=0
+b=1
+c=2
+# and(与) x and y :都真才真 一假全假
+print(a<b and c>b)#True
+print(a>b and c>b)#False
+# or(或) x or y : 一真则真 都假才假
+print(a<b or c>b)
+print(a>b or c>b) #True
+# not(非)：取反义
+print(not False) #True
+print(not c>b) #False
