@@ -22,5 +22,5 @@ for i in str1:
 str1 = 'itheima'
 for i in str1:
     if i=='m':
-        continue
+        continue#跳过m 不打印
     print(i)
