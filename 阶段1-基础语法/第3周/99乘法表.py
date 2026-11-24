@@ -2,7 +2,7 @@ i=1
 while i<=9:
     j=1
     while j<=i:
-        print(f'{i}*{j}=={i*j}',end='\t')
+        print(f'{i}*{j}=={i*j}',end='\t')#\t保证输出内容对齐
         j+=1
     print()#空print起换行作用
     i+=1
